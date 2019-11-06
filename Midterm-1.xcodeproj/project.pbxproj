@@ -15,7 +15,7 @@
 		17C9A98423730B76006C5CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C9A98223730B76006C5CB2 /* LaunchScreen.storyboard */; };
 		17C9A98F23730B77006C5CB2 /* Midterm_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C9A98E23730B77006C5CB2 /* Midterm_1Tests.swift */; };
 		17C9A99A23730B77006C5CB2 /* Midterm_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C9A99923730B77006C5CB2 /* Midterm_1UITests.swift */; };
-		17C9A9AA23732AAF006C5CB2 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C9A9A923732AAF006C5CB2 /* Slider.swift */; };
+		17C9A9AC2373DAEF006C5CB2 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C9A9AB2373DAEF006C5CB2 /* SliderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		17C9A99523730B77006C5CB2 /* Midterm-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Midterm-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C9A99923730B77006C5CB2 /* Midterm_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Midterm_1UITests.swift; sourceTree = "<group>"; };
 		17C9A99B23730B77006C5CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17C9A9A923732AAF006C5CB2 /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		17C9A9AB2373DAEF006C5CB2 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +105,10 @@
 				17C9A97923730B6F006C5CB2 /* SceneDelegate.swift */,
 				17C9A97B23730B6F006C5CB2 /* ViewController.swift */,
 				17C9A97D23730B6F006C5CB2 /* Main.storyboard */,
-				17C9A9A923732AAF006C5CB2 /* Slider.swift */,
 				17C9A98023730B76006C5CB2 /* Assets.xcassets */,
 				17C9A98223730B76006C5CB2 /* LaunchScreen.storyboard */,
 				17C9A98523730B76006C5CB2 /* Info.plist */,
+				17C9A9AB2373DAEF006C5CB2 /* SliderViewController.swift */,
 			);
 			path = "Midterm-1";
 			sourceTree = "<group>";
@@ -264,8 +264,8 @@
 			files = (
 				17C9A97C23730B6F006C5CB2 /* ViewController.swift in Sources */,
 				17C9A97823730B6F006C5CB2 /* AppDelegate.swift in Sources */,
-				17C9A9AA23732AAF006C5CB2 /* Slider.swift in Sources */,
 				17C9A97A23730B6F006C5CB2 /* SceneDelegate.swift in Sources */,
+				17C9A9AC2373DAEF006C5CB2 /* SliderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
